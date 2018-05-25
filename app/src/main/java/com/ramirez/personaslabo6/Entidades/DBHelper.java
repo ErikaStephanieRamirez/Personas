@@ -21,7 +21,7 @@ public class DBHelper extends SQLiteOpenHelper{
     public static final String TABLA_USUARIO="Persona";
     public static final String CAMPO_ID="dui";
     public static final String CAMPO_NOMBRE="nombre";
-    public static final String CREAR_TABLA_USUARIO="CREATE TABLE "+ TABLA_USUARIO +"("+CAMPO_ID+" TEXT,"+ CAMPO_NOMBRE +"TEXT)";
+    public static final String CREAR_TABLA_USUARIO="CREATE TABLE "+ TABLA_USUARIO +"("+CAMPO_ID+" TEXT,"+ CAMPO_NOMBRE +" TEXT)";
 
     @Override
     public void onCreate(SQLiteDatabase db) {
